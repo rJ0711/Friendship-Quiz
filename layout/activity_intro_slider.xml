@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff191919" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/Scroll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.viewpager.widget.ViewPager android:id="@id/viewpage" android:layout_width="fill_parent" android:layout_height="633.0dip" />
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/dotlayout" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginBottom="60.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/previous_btn" android:background="@drawable/ripple_effect" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/previous" android:layout_toLeftOf="@id/dotlayout" android:layout_alignParentBottom="true" android:fontFamily="sans-serif-medium" />
+    <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/next_btn" android:background="@drawable/ripple_effect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NEXT" android:layout_toRightOf="@id/dotlayout" android:layout_alignParentBottom="true" android:fontFamily="sans-serif-medium" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/slide_image" android:layout_width="195.0dip" android:layout_height="195.0dip" android:layout_marginTop="80.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/fakemask" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="35.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/slide_headerline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" android:text="Enemies in Friends ?" android:layout_below="@id/slide_image" android:layout_centerHorizontal="true" android:fontFamily="@font/macondo_swash_caps" />
+            <TextView android:textSize="19.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/slide_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="Better to understand better to believe !\n The easiest way to realise the difference between enemies and friends." android:layout_below="@id/slide_headerline" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" />
+            <View android:background="#ffed0937" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff404040" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="45.0dip" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="58.0dip" android:text="Select Language" android:layout_above="@id/image" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/image" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="319.0dip" android:src="@drawable/language_icon" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <Button android:textColor="@android:color/white" android:id="@id/hindi" android:background="@drawable/nextbutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="67.0dip" android:layout_marginRight="115.0dip" android:layout_marginBottom="196.0dip" android:text="HINDI" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <Button android:textColor="@android:color/white" android:id="@id/defaultEng" android:background="@drawable/nextbutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="119.0dip" android:layout_marginTop="119.0dip" android:layout_marginRight="119.0dip" android:layout_marginBottom="196.0dip" android:text="ENG" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>
